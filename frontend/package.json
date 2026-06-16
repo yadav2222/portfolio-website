@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-frontend",
+  "version": "1.0.0",
+  "description": "Premium Portfolio Website Frontend",
+  "scripts": {
+    "serve": "python -m http.server 8000",
+    "serve-node": "npx http-server"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "frontend",
+    "responsive"
+  ],
+  "author": "Sumit Yadav",
+  "license": "MIT"
+}

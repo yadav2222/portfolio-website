@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sumit Yadav - Premium Personal Portfolio Website">
+    <meta name="keywords" content="Sumit Yadav, Portfolio, Professional, Web Developer">
+    <meta name="author" content="Sumit Yadav">
+    <title>Sumit Yadav - Premium Portfolio</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS (Animate On Scroll) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-user-circle"></i>
+                <span>Sumit Yadav</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-icons">
+                <button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============ HERO SECTION ============ -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <div class="hero-text">
+                <h1 class="hero-title">Sumit Yadav</h1>
+                <p class="hero-tagline" id="tagline">Creating Premium Digital Experiences</p>
+                <p class="hero-intro" id="heroIntro">Welcome to my portfolio. I'm a passionate developer and designer creating innovative solutions.</p>
+                <div class="hero-buttons">
+                    <a href="#certificates" class="btn btn-primary">
+                        <i class="fas fa-certificate"></i> View Certificates
+                    </a>
+                    <a href="#" class="btn btn-secondary" id="resumeDownload">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image-container">
+                    <img id="profileImage" src="https://via.placeholder.com/300" alt="Sumit Yadav Profile" class="profile-image">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ============ ABOUT SECTION ============ -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content" data-aos="fade-up">
+                <div class="about-text">
+                    <h3>Who Am I?</h3>
+                    <p id="aboutIntro">Add your personal introduction here. Tell your story, background, and what drives you.</p>
+                    <h3>Career Objectives</h3>
+                    <p id="careerObjectives">Share your professional goals and aspirations for the future.</p>
+                    <h3>Background</h3>
+                    <p id="backgroundInfo">Describe your educational background, professional experience, and key achievements.</p>
+                </div>
+                <div class="about-highlights">
+                    <h3>Highlights</h3>
+                    <div class="highlights-grid">
+                        <div class="highlight-card">
+                            <i class="fas fa-star"></i>
+                            <h4>Interests</h4>
+                            <p id="interests">Add your interests and hobbies</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fas fa-trophy"></i>
+                            <h4>Achievements</h4>
+                            <p id="achievements">Add your key achievements</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fas fa-bolt"></i>
+                            <h4>Strengths</h4>
+                            <p id="strengths">Add your core strengths</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ EDUCATION SECTION ============ -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Education</h2>
+                <p class="section-subtitle">My academic journey</p>
+            </div>
+            <div class="education-timeline" id="educationTimeline">
+                <!-- Education items will be loaded here -->
+                <div class="education-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor's Degree</h3>
+                        <p class="institution">University Name</p>
+                        <p class="duration">2020 - 2024</p>
+                        <p class="cgpa">CGPA: 3.8/4.0</p>
+                        <p class="course">Course: Computer Science</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SKILLS SECTION ============ -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Skills & Expertise</h2>
+                <p class="section-subtitle">Technologies & tools I work with</p>
+            </div>
+            <div class="skills-grid" id="skillsGrid">
+                <!-- Skills will be loaded here -->
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                    <p class="skill-percent">90%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CERTIFICATES SECTION ============ -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Certificates & Achievements</h2>
+                <p class="section-subtitle">Certifications and recognitions</p>
+            </div>
+            <div class="certificate-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="certification">Certification</button>
+                <button class="filter-btn" data-filter="achievement">Achievement</button>
+                <button class="filter-btn" data-filter="award">Award</button>
+            </div>
+            <div class="certificates-grid" id="certificatesGrid">
+                <!-- Certificates will be loaded here -->
+                <div class="certificate-card" data-aos="fade-up" data-category="certification">
+                    <div class="certificate-image">
+                        <img src="https://via.placeholder.com/300x200" alt="Certificate">
+                        <div class="certificate-overlay">
+                            <a href="#" class="overlay-btn" download>
+                                <i class="fas fa-download"></i> Download
+                            </a>
+                        </div>
+                    </div>
+                    <div class="certificate-info">
+                        <h3>Certificate Title</h3>
+                        <p class="issuer">Issuing Organization</p>
+                        <p class="date"><i class="fas fa-calendar"></i> 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ RESUME SECTION ============ -->
+    <section id="resume" class="resume-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Resume / CV</h2>
+                <p class="section-subtitle">Download my full resume</p>
+            </div>
+            <div class="resume-content" data-aos="fade-up">
+                <div class="resume-summary">
+                    <h3>Professional Summary</h3>
+                    <p id="resumeSummary">Add your professional summary here. This is a brief overview of your career and achievements.</p>
+                </div>
+                <div class="resume-download">
+                    <a href="#" class="btn btn-primary" id="resumeDownloadBtn">
+                        <i class="fas fa-file-pdf"></i> Download Full Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ EXPERIENCE SECTION ============ -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Experience & Projects</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            <div class="experience-tabs">
+                <button class="tab-btn active" data-tab="work">Work Experience</button>
+                <button class="tab-btn" data-tab="projects">Projects</button>
+                <button class="tab-btn" data-tab="internship">Internships</button>
+            </div>
+            <div class="experience-content">
+                <div class="tab-content active" id="work-tab" data-aos="fade-up">
+                    <!-- Work experience items will be loaded here -->
+                    <div class="experience-item">
+                        <div class="timeline-dot"></div>
+                        <div class="experience-details">
+                            <h3>Job Title</h3>
+                            <p class="company">Company Name</p>
+                            <p class="duration"><i class="fas fa-calendar"></i> 2023 - Present</p>
+                            <p class="description">Add your job responsibilities and achievements.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="projects-tab" data-aos="fade-up">
+                    <!-- Project items will be loaded here -->
+                    <div class="project-item">
+                        <h3>Project Title</h3>
+                        <p class="project-category">Category</p>
+                        <p class="project-description">Add your project description.</p>
+                        <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="tab-content" id="internship-tab" data-aos="fade-up">
+                    <!-- Internship items will be loaded here -->
+                    <div class="experience-item">
+                        <div class="timeline-dot"></div>
+                        <div class="experience-details">
+                            <h3>Internship Title</h3>
+                            <p class="company">Company Name</p>
+                            <p class="duration"><i class="fas fa-calendar"></i> 2022 - 2023</p>
+                            <p class="description">Add your internship experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PHOTO GALLERY ============ -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Photo Gallery</h2>
+                <p class="section-subtitle">Personal moments and achievements</p>
+            </div>
+            <div class="gallery-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="personal">Personal</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="achievement">Achievements</button>
+            </div>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery items will be loaded here -->
+                <div class="gallery-item" data-aos="zoom-in" data-category="personal">
+                    <img src="https://via.placeholder.com/300x300" alt="Gallery Image">
+                    <div class="gallery-overlay">
+                        <a href="https://via.placeholder.com/300x300" class="gallery-link" data-lightbox="gallery">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ BLOG SECTION ============ -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Blog & Updates</h2>
+                <p class="section-subtitle">Articles and personal thoughts</p>
+            </div>
+            <div class="blog-grid" id="blogGrid">
+                <!-- Blog posts will be loaded here -->
+                <article class="blog-card" data-aos="fade-up">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250" alt="Blog Post">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Technology</span>
+                        <h3>Blog Post Title</h3>
+                        <p class="blog-excerpt">Add your blog post excerpt here.</p>
+                        <div class="blog-meta">
+                            <span class="date"><i class="fas fa-calendar"></i> Today</span>
+                            <span class="reading-time"><i class="fas fa-clock"></i> 5 min read</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SOCIAL MEDIA SECTION ============ -->
+    <section id="social" class="social-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Follow Me</h2>
+                <p class="section-subtitle">Connect with me on social media</p>
+            </div>
+            <div class="social-links" data-aos="fade-up">
+                <a href="#" class="social-link instagram" title="Instagram" id="instagramLink">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="#" class="social-link linkedin" title="LinkedIn" id="linkedinLink">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="#" class="social-link facebook" title="Facebook" id="facebookLink">
+                    <i class="fab fa-facebook"></i>
+                    <span>Facebook</span>
+                </a>
+                <a href="#" class="social-link twitter" title="Twitter" id="twitterLink">
+                    <i class="fab fa-x-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+                <a href="#" class="social-link github" title="GitHub" id="githubLink">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="#" class="social-link youtube" title="YouTube" id="youtubeLink">
+                    <i class="fab fa-youtube"></i>
+                    <span>YouTube</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CONTACT SECTION ============ -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and collaborate</p>
+            </div>
+            <div class="contact-content" data-aos="fade-up">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:your@email.com" id="emailLink">your@email.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+91XXXXXXXXXX" id="phoneLink">+91 XXXXXXXXXX</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/91XXXXXXXXXX" id="whatsappLink">Chat on WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required id="contactName">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required id="contactEmail">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required id="contactSubject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required id="contactMessage"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Me</h3>
+                    <div class="footer-social">
+                        <a href="#" id="footerInstagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" id="footerLinkedin"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" id="footerGithub"><i class="fab fa-github"></i></a>
+                        <a href="#" id="footerTwitter"><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p id="footerEmail">email@example.com</p>
+                    <p id="footerPhone">+91 XXXXXXXXXX</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sumit Yadav. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="#" class="floating-whatsapp" id="floatingWhatsapp" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" title="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
