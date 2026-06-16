@@ -1,6 +1,6 @@
 // Admin Panel JavaScript
 
-const API_URL = `http://${window.location.hostname}:5000/api`;
+const API_URL = 'https://portfolio-website-tr66.onrender.com/api';
 const authTokenKey = 'portfolioAdminToken';
 
 function getAuthToken() {
